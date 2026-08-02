@@ -8,6 +8,9 @@ import struct
 import subprocess
 
 
+# This is the system version that is advertised to the server in the user agent
+# header. It is not the system version that is downloaded from the server. The
+# script currently always downloads the latest system version from the server.
 SYSTEM_VERSION = 2250 # 22.5.0
 
 # You can dump prod.keys with Lockpick_RCM and
