@@ -1,6 +1,10 @@
 
 ## Changelog
 
+### 5.0.0
+* **Breaking change:** type hints were added to most classes and functions. This changes the minimum required Python version to 3.12.
+* Added support for Switch system version 22.5.0.
+
 ### 4.4.0
 * Added support for Switch system version 22.0.0 and 22.1.0.
 
